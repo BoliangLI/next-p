@@ -1,0 +1,9 @@
+{
+  "name": "next-p",
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm build",
+  "assets": {
+    "directory": "./out",
+    "notFoundStrategy": "404Page"
+  }
+}
