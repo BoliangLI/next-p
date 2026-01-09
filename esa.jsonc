@@ -1,0 +1,19 @@
+{
+  // Project name (must match target project)
+  "name": "next-p",
+
+  // No custom edge function entry (using default Next.js server handling)
+  "entry": "",
+
+  // Install dependencies with npm
+  "installCommand": "npm install",
+
+  // Build using npm run build (which will trigger postbuild -> next export)
+  "buildCommand": "npm run build",
+
+  // Static assets output directory after next export
+  "assets": {
+    "directory": "./out",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}
